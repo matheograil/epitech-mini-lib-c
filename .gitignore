@@ -1,0 +1,7 @@
+.idea
+.vscode
+*.o
+libasm.so
+*.gcda
+*.gcno
+unit_tests
