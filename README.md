@@ -1,17 +1,7 @@
 # MiniLibC
 
-[![Continuous Integration](https://github.com/matheograil/mini-lib-c/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/matheograil/mini-lib-c/actions/workflows/ci.yml)
+We had to recode some standard functions of the C library in assembler.
 
-Here are the functions to be implemented in your MiniLibC:
-- strlen
-- strchr
-- strrchr
-- memset
-- memcpy
-- strcmp
-- memmove
-- strncmp
-- strcasecmp
-- strstr
-- strpbrk
-- strcspn
+To get the _libasm.so_, clone the repository and `make`.
+
+You can also launch the tests (Criterion) by running `make tests_run`.
